@@ -1,0 +1,30 @@
+https://fontawesome.com/icons/
+
+map marker
+<i class="fas fa-map-marker-alt"></i>
+
+mobile phone
+<i class="fas fa-mobile-alt"></i>
+
+heart
+<i class="far fa-heart"></i> (contour)
+<i class="fas fa-heart"></i> (plein)
+
+list
+<i class="fas fa-list-ul"></i>
+
+shop
+<i class="fas fa-store"></i>
+
+ustensils
+<i class="fas fa-utensils"></i>
+
+hands
+<i class="fas fa-hands-helping"></i>
+
+left arrow
+<i class="fas fa-arrow-left"></i>
+
+check
+<i class="fas fa-check-circle"></i>
+
