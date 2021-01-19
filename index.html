@@ -1,11 +1,91 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ohmyfood!</title>
+    <!-- lien vers icones fontawesome -->
+    <script src="https://kit.fontawesome.com/437a0e72c7.js" crossorigin="anonymous"></script>
 </head>
 <body>
-
+    <header>
+        <img src="images/logo/ohmyfood@2x.svg" alt="logo ohmyfood">
+    </header>
+    <main>
+        <section id="search">
+            <h2>Réservez le menu qui vous convient</h2>
+            <i class="fas fa-map-marker-alt"></i><label for="search"></label>
+            <input type="search" id="place" name="q" aria-label="Rechercher un restaurant">
+            <p>Découvrez des restaurants d'exception, sélectionnés par nos soins.</p>
+            <button>Explorer nos restaurants</button>
+        </section>
+        <section id="steps">
+            <h2>Fonctionnement</h2>
+            <ol>
+                <li>
+                    <i class="fas fa-mobile-alt"></i>
+                    <p>Choisissez un restaurant</p>
+                </li>
+                <li>
+                    <i class="fas fa-list-ul"></i>
+                    <p>Composez votre menu</p>
+                </li>
+                <li>
+                    <i class="fas fa-store"></i>
+                    <p>Dégustez au restaurant</p>
+                </li>
+            </ol>
+        </section>
+        <section id="restaurants">
+            <h2>Restaurants</h2>
+            <ul>
+                <li>
+                    <a href="">
+                        <button>Nouveau</button>
+                        <img src="images/restaurants/la_palette_du_gout.jpg" alt="">
+                        <h3>La palette du goût</h3>
+                        <p>Ménilmontant</p>
+                        <i class="far fa-heart"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <button>Nouveau</button>
+                        <img src="images/restaurants/la_note_enchantee.jpg" alt="">
+                        <h3>La note enchantée</h3>
+                        <p>Charonne</p>
+                        <i class="far fa-heart"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <img src="images/restaurants/a_la_francaise.jpg" alt="">
+                        <h3>À la française</h3>
+                        <p>Cité Rouge</p>
+                        <i class="far fa-heart"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <img src="images/restaurants/le_delice_des_sens.jpg" alt="">
+                        <h3>Le délice des sens</h3>
+                        <p>Folie-Méricourt</p>
+                        <i class="far fa-heart"></i>
+                    </a>
+                </li>
+            </ul>
+        </section>
+    </main>
+    <footer>
+        <h2>ohmyfood</h2>
+        <a href="">
+            <i class="fas fa-utensils"></i><h3>Proposer un restaurant</h3>
+        </a>
+        <a href="">
+            <i class="fas fa-hands-helping"></i><h3>Devenir partenaire</h3>
+        </a>
+        <a href="">Mentions légales</a>
+        <a href="">Contact</a>
+    </footer>
 </body>
 </html>
