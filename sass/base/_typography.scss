@@ -1,4 +1,9 @@
 
+header h1 {
+    font-family: Shrikhand, Arial, Helvetica, sans-serif;
+    font-size: 1.2em;
+}
+
 h1 {
     font-family: Shrikhand, Arial, Helvetica, sans-serif;
     font-size: 1.1em;
@@ -12,6 +17,13 @@ h2 {
 .shrikhand {
     font-family: Shrikhand, Arial, Helvetica, sans-serif;
     font-size: 0.8em;
+}
+
+dl h2 {
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+    font-weight: 300;
+    font-size: 0.8em;
+    text-transform: uppercase;
 }
 
 h3 {
