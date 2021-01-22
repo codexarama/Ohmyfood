@@ -1,9 +1,9 @@
 @mixin card {
-	background-color: white
+	background-color: white;
 	border-radius: 25px;
 	box-shadow: 0 5px 2em $colour-shadow;
 		&:hover {
-			box-shadow: $color-hover
+			box-shadow: $color-hover;
 	}
 }
 

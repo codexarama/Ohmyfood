@@ -1,0 +1,55 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 1em;
+}
+
+body {
+  box-sizing: border-box;
+}
+
+h1 {
+  font-family: Shrikhand, Arial, Helvetica, sans-serif;
+  font-size: 1, 3em;
+}
+
+h2 {
+  font-family: Roboto, Arial, Helvetica, sans-serif;
+  font-size: 1, 2em;
+}
+
+h3 {
+  font-family: Roboto, Arial, Helvetica, sans-serif;
+  font-size: 1, 1em;
+}
+
+p {
+  font-family: Roboto, Arial, Helvetica, sans-serif;
+  font-size: 1, 1em;
+}
+
+textarea {
+  font-family: Roboto, Arial, Helvetica, sans-serif;
+  font-size: 1, 1em;
+}
+
+button {
+  font-family: Roboto, Arial, Helvetica, sans-serif;
+  font-size: 1, 1em;
+}
+
+a {
+  text-decoration: none;
+}
+
+li, dt, dd {
+  list-style: none;
+}
+
+/*# sourceMappingURL=styles.css.map */
