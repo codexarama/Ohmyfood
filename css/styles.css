@@ -29,6 +29,14 @@ h2 {
   font-size: 0.8em;
 }
 
+/* ajout manuel : n'a pas compilé les modifs source - cf. browser error message */
+dl h2 {
+  font-family: Roboto, Arial, Helvetica, sans-serif;
+  font-weight: 300;
+  font-size: 0.8em;
+  text-transform: uppercase;
+}
+
 h3 {
   font-family: Roboto, Arial, Helvetica, sans-serif;
   font-size: 0.9em;
