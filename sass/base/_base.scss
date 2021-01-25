@@ -6,10 +6,11 @@
     box-sizing: inherit;
 }
 
-html {
-    font-size: 1em;
-}
-
 body {
     box-sizing: border-box;
+}
+
+main {
+    width: 90%;
+    margin: auto;
 }

@@ -1,12 +1,12 @@
 
-header h1 {
+.header_logo {
     font-family: Shrikhand, Arial, Helvetica, sans-serif;
     font-size: 1.2em;
 }
 
 h1 {
     font-family: Shrikhand, Arial, Helvetica, sans-serif;
-    font-size: 1.1em;
+    font-size: 1.2em;
 }
 
 h2 {
@@ -14,16 +14,12 @@ h2 {
     font-size: 1em;
 }
 
-.shrikhand {
-    font-family: Shrikhand, Arial, Helvetica, sans-serif;
-    font-size: 0.8em;
-}
-
-dl h2 {
+.menu_heading {
     font-family: Roboto, Arial, Helvetica, sans-serif;
     font-weight: 300;
     font-size: 0.8em;
     text-transform: uppercase;
+    /*border-bottom: @include $accent;*/
 }
 
 h3 {
@@ -31,7 +27,7 @@ h3 {
     font-size: 0.9em;
 }
 
-.prix {
+.menu_price {
     font-family: Roboto, Arial, Helvetica, sans-serif;
     font-weight: 700;
     font-size: 0.8em;
@@ -60,7 +56,7 @@ button {
     font-size: 0.8em;
 }
 
-a, a:visited {
+a, a:visited, a:focus {
     text-decoration: none;
 }
 

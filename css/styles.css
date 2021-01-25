@@ -1,3 +1,9 @@
+/*@mixin dishes_title {
+	text-transform: uppercase;
+	border-bottom: 20% solid $colour-tertiary;
+	padding: 0 0 4;
+	width: 50%;
+}*/
 *,
 *::after,
 *::before {
@@ -6,17 +12,23 @@
   box-sizing: inherit;
 }
 
-html {
-  font-size: 1em;
-}
-
 body {
   box-sizing: border-box;
 }
 
+main {
+  width: 90%;
+  margin: auto;
+}
+
+.header_logo {
+  font-family: Shrikhand, Arial, Helvetica, sans-serif;
+  font-size: 1.2em;
+}
+
 h1 {
   font-family: Shrikhand, Arial, Helvetica, sans-serif;
-  font-size: 1.1em;
+  font-size: 1.2em;
 }
 
 h2 {
@@ -24,17 +36,12 @@ h2 {
   font-size: 1em;
 }
 
-.shrikhand {
-  font-family: Shrikhand, Arial, Helvetica, sans-serif;
-  font-size: 0.8em;
-}
-
-/* ajout manuel : n'a pas compilé les modifs source - cf. browser error message */
-dl h2 {
+.menu_heading {
   font-family: Roboto, Arial, Helvetica, sans-serif;
   font-weight: 300;
   font-size: 0.8em;
   text-transform: uppercase;
+  /*border-bottom: @include $accent;*/
 }
 
 h3 {
@@ -42,7 +49,7 @@ h3 {
   font-size: 0.9em;
 }
 
-.prix {
+.menu_price {
   font-family: Roboto, Arial, Helvetica, sans-serif;
   font-weight: 700;
   font-size: 0.8em;
@@ -71,12 +78,44 @@ button {
   font-size: 0.8em;
 }
 
-a, a:visited {
+a, a:visited, a:focus {
   text-decoration: none;
 }
 
 li, dt, dd {
   list-style: none;
+}
+
+footer {
+  background-color: #464646;
+  color: white;
+  padding: 30px;
+}
+footer footer a, footer a:visited {
+  color: white;
+}
+footer .footer_heading {
+  font-family: Shrikhand, Arial, Helvetica, sans-serif;
+  font-size: 1em;
+  font-weight: 100;
+  padding-bottom: 15px;
+}
+footer .footer_infos {
+  display: inline-flex;
+  align-items: center;
+}
+footer .footer_icon {
+  font-size: smaller;
+}
+footer .footer_link {
+  font-weight: 500;
+  line-height: 2em;
+  padding-left: 10px;
+}
+footer .mention, footer .contact {
+  color: lightgrey;
+  font-weight: 100;
+  line-height: 1.5em;
 }
 
 /*# sourceMappingURL=styles.css.map */
