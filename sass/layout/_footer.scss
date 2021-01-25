@@ -1,0 +1,31 @@
+footer {
+    background-color: rgb(70, 70, 70);
+    color: white;
+    padding: 30px;
+    footer a, a:visited,  {
+        color: white;
+    }
+    .footer_heading {
+        font-family: Shrikhand, Arial, Helvetica, sans-serif;
+        font-size: 1em;
+        font-weight: 100;
+        padding-bottom: 15px;
+    }
+    .footer_infos {
+        display: inline-flex;
+        align-items: center;
+    }
+    .footer_icon {
+        font-size: smaller;
+    }
+    .footer_link {
+        font-weight: 500;
+        line-height: 2em;
+        padding-left: 10px;
+    }
+    .mention, .contact {
+        color: lightgrey;
+        font-weight: 100;
+        line-height: 1.5em;
+    }
+}
