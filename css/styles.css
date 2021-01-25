@@ -16,11 +16,6 @@ body {
   box-sizing: border-box;
 }
 
-main {
-  width: 90%;
-  margin: auto;
-}
-
 .header_logo {
   font-family: Shrikhand, Arial, Helvetica, sans-serif;
   font-size: 1.2em;
@@ -88,6 +83,7 @@ li, dt, dd {
 
 header h1 {
   text-align: center;
+  padding: 10px 0;
 }
 
 .header_logo {
@@ -100,7 +96,7 @@ header h1 {
 .header_nav {
   display: inline-flex;
   width: 100%;
-  padding: 15px 30px 10px 15px;
+  padding: 20px 30px 10px 15px;
 }
 
 .header_img {
@@ -110,18 +106,51 @@ header h1 {
 
 .header_heading {
   display: inline-flex;
+  align-items: center;
   width: 100%;
   justify-content: space-between;
   margin-top: -60px;
-  padding: 30px 30px 20px 15px;
+  padding: 20px 30px 0 15px;
   background-color: #f2f2f2;
   border-radius: 25px 25px 0 0;
+}
+
+.card {
+  background-color: white;
+  border-radius: 15px;
+  margin-top: 10px;
+  box-shadow: 0 0 10px #c0c0c0;
+}
+.card img {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+  margin: 0;
+  border-radius: 15px 15px 0 0;
+}
+.card:hover {
+  cursor: pointer;
+}
+
+.steps__card {
+  background-color: #f2f2f2;
+  border-radius: 10px;
+  margin-top: 10px;
+  box-shadow: 0 0 5px #c0c0c0;
+  margin-left: 10px;
+}
+.steps__card:hover {
+  cursor: pointer;
+}
+
+.menu__dish {
+  padding: 15px;
 }
 
 footer {
   background-color: #464646;
   color: white;
-  padding: 30px;
+  padding: 20px;
 }
 footer footer a, footer a:visited {
   color: white;
@@ -148,6 +177,97 @@ footer .mention, footer .contact {
   color: lightgrey;
   font-weight: 100;
   line-height: 1.5em;
+}
+
+main {
+  background-color: #f2f2f2;
+}
+
+.search {
+  background-color: #f2f2f2;
+  margin-bottom: 30px;
+}
+.search__form {
+  text-align: center;
+}
+.search__heading {
+  width: 40%;
+  margin: auto;
+  text-align: center;
+  padding: 10px 0;
+}
+.search__location {
+  width: 100%;
+  padding: 10px 0;
+  background-color: lightgrey;
+  border-top: solid medium gray;
+  align-items: center;
+}
+.search i {
+  padding-right: 10px;
+}
+.search__field {
+  padding: 10px 0;
+  background-color: lightgrey;
+  border: none;
+  text-align: center;
+}
+.search__byline {
+  width: 60%;
+  margin: auto;
+  padding-bottom: 30px;
+  text-align: center;
+}
+
+.steps {
+  background-color: white;
+  padding: 20px;
+}
+.steps li {
+  display: inline-flex;
+  align-items: center;
+  width: 95%;
+  padding: 10px 0;
+}
+.steps i {
+  padding: 0 30px;
+  color: gray;
+  width: 10px;
+  height: auto;
+}
+.steps__number {
+  background-color: #9356dc;
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  margin-left: -10px;
+  color: white;
+  text-align: center;
+  line-height: 1.5;
+}
+
+.restaurants {
+  padding: 20px;
+}
+.restaurants__new {
+  width: 20%;
+  background-color: #99e2d0;
+  color: green;
+  font-weight: 700;
+  text-align: center;
+  padding: 5px;
+  position: relative;
+  top: 40px;
+}
+
+.menu {
+  background-color: #f2f2f2;
+}
+.menu__choice {
+  padding: 20px;
+}
+.menu li {
+  padding-bottom: 30px;
 }
 
 /*# sourceMappingURL=styles.css.map */

@@ -1,0 +1,11 @@
+.menu {
+    background-color: $color-background;
+
+    &__choice {
+        padding: 20px;
+    }
+
+    & li {
+        padding-bottom: 30px;
+    }
+}
