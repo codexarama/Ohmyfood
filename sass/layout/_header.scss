@@ -1,0 +1,31 @@
+header h1 {
+    text-align: center;
+}
+
+.header_logo {
+    display: flex;
+    width: 40%;
+    height: auto;
+    margin: auto;
+}
+
+.header_nav {
+    display: inline-flex;
+    width: 100%;
+    padding: 15px 30px 10px 15px;
+}
+
+.header_img {
+    width: 100%;
+    height: auto;
+}
+
+.header_heading {
+    display: inline-flex;
+    width: 100%;
+    justify-content: space-between;
+    margin-top: -60px;
+    padding: 30px 30px 20px 15px;
+    background-color: $color-background;
+    border-radius: 25px 25px 0 0;
+}
