@@ -17,44 +17,46 @@
 
 <body>
     <header class="header">
-        <h1 class="header_logo">ohmyfood</h1>
+        <h1>ohmyfood</h1>
     </header>
     <main>
-        <section id="search">
-            <form id="form" action="search">
-                <h2 id="form_heading">Réservez le menu qui vous convient</h2>
-                <i id="fas fa-map-marker-alt"></i>
-                <input id="form_field" type="search" id="champ" name="place" placeholder="Paris, Belleville" required>
-                <p id="form_byline">Découvrez des restaurants d'exception, sélectionnés par nos soins.</p>
-                <button id="btn" type="submit">Explorer nos restaurants</button>
+        <section class="search">
+            <form class="search__form" action="search">
+                <div class="search__location">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <input class="search__field" type="search" class="champ" name="location" placeholder="Paris, Belleville" required>
+                </div>
+                <h2 class="search__heading">Réservez le menu qui vous convient</h2>
+                <p class="search__byline">Découvrez des restaurants d'exception, sélectionnés par nos soins.</p>
+                <button class="btn" type="submit">Explorer nos restaurants</button>
             </form>
         </section>
-        <section id="steps">
-            <h2 id="steps_heading">Fonctionnement</h2>
+        <section class="steps">
+            <h2 class="steps__heading">Fonctionnement</h2>
             <ol>
-                <li class="card">
-                    <p>1</p>
+                <li class="steps__card">
+                    <p class="steps__number">1</p>
                     <i class="fas fa-mobile-alt"></i>
                     <p>Choisissez un restaurant</p>
                 </li>
-                <li class="card">
-                    <p>2</p>
+                <li class="steps__card">
+                    <p class="steps__number">2</p>
                     <i class="fas fa-list-ul"></i>
                     <p>Composez votre menu</p>
                 </li>
-                <li class="card">
-                    <p>3</p>
+                <li class="steps__card">
+                    <p class="steps__number">3</p>
                     <i class="fas fa-store"></i>
                     <p>Dégustez au restaurant</p>
                 </li>
             </ol>
         </section>
-        <section id="restaurants">
+        <section class="restaurants">
             <h2>Restaurants</h2>
             <ul>
                 <li class="card">
                     <a href="/menu_la_palette_du_gout.html">
-                        <p class="new">Nouveau</p>
+                        <p class="restaurants__new">Nouveau</p>
                         <img src="images/restaurants/la_palette_du_gout.jpg" alt="Mets de restaurant servi sur table">
                         <h3>La palette du goût</h3>
                         <p>Ménilmontant</p>
@@ -63,7 +65,7 @@
                 </li>
                 <li class="card">
                     <a href="/menu_la_note_enchantee.html">
-                        <p class="new">Nouveau</p>
+                        <p class="restaurants__new">Nouveau</p>
                         <img src="images/restaurants/la_note_enchantee.jpg" alt="Mets de restaurant servi sur table">
                         <h3>La note enchantée</h3>
                         <p>Charonne</p>
