@@ -1,0 +1,40 @@
+.search {
+    background-color: $color-background;
+    margin-bottom: 15px;
+
+    &__form {
+        text-align: center;
+    }
+
+    &__heading {
+        width: 50%;
+        margin: auto;
+        text-align: center;
+        padding: 15px 0;
+    }
+
+    &__location {
+        width: 100%;
+        padding: 10px 0;
+        background-color: rgb(228, 228, 228);
+        border-top: solid medium rgb(200, 200, 200);
+        align-items: center;
+    }
+
+    & i {
+        padding-right: 10px;
+    }
+
+    &__field {
+        padding: 10px 0;
+        background-color: rgb(228, 228, 228);
+        border: none;
+        text-align: center;
+    }
+
+    &__byline {
+        width: 70%;
+        margin: auto;
+        text-align: center;
+    }
+}

@@ -2,47 +2,6 @@ main {
     background-color: $color-background;
 }
 
-.search {
-    background-color: $color-background;
-    margin-bottom: 30px;
-
-    &__form {
-        text-align: center;
-    }
-
-    &__heading {
-        width: 50%;
-        margin: auto;
-        text-align: center;
-        padding: 15px 0;
-    }
-
-    &__location {
-        width: 100%;
-        padding: 10px 0;
-        background-color: lightgrey;
-        border-top: solid medium gray;
-        align-items: center;
-    }
-
-    & i {
-        padding-right: 10px;
-    }
-
-    &__field {
-        padding: 10px 0;
-        background-color: lightgrey;
-        border: none;
-        text-align: center;
-    }
-
-    &__byline {
-        width: 70%;
-        margin: auto;
-        padding-bottom: 30px;
-        text-align: center;
-    }
-}
 
 .steps {
     background-color: white;
@@ -90,7 +49,7 @@ main {
         padding-bottom: 10px;
     }
 
-    &__new {
+    &__tag {
         width: 20%;
         background-color: $color-accent;
         border-radius: 3px;

@@ -2,10 +2,23 @@
     background-color: $color-background;
 
     &__choice {
-        padding: 20px;
+        padding: 0 20px 20px;
     }
 
     & h2 {
         padding-top: 30px;
+    }
+
+    & dd {
+        display: inline-flex;
+    }
+
+    &__order {
+        display: flex;
+        justify-content: center;
+
+        & button {
+            width: 45%;
+        }
     }
 }
