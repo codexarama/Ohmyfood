@@ -1,0 +1,13 @@
+.nav {
+    display: inline-flex;
+    width: 100%;
+    padding: 20px 30px 10px 15px;
+
+    &__logo {
+        display: flex;
+        width: 40%;
+        height: auto;
+        margin: auto;
+    }
+}
+
