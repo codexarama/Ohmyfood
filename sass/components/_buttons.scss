@@ -11,6 +11,7 @@
 
     &:hover, &:active {
         transform: scale(1.05);
+        box-shadow: 0 3px 10px gray;
     }
 }
 

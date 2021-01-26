@@ -5,8 +5,16 @@
         padding: 0 20px 20px;
     }
 
-    & h2 {
+    &__heading {
         padding-top: 30px;
+        padding-bottom: 5px;
+    }
+
+    & hr {
+        width: 40px;
+        height: 2px;
+        border: none;
+        background-color: $color-accent;
     }
 
     & dd {
