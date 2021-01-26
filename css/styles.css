@@ -31,31 +31,32 @@ h2 {
   font-size: 1em;
 }
 
-.menu__heading {
-  font-family: Roboto, Arial, Helvetica, sans-serif;
-  font-weight: 300;
-  font-size: 0.8em;
-  text-transform: uppercase;
-  /*border-bottom: @include $accent;*/
-}
-
 h3 {
   font-family: Roboto, Arial, Helvetica, sans-serif;
   font-size: 0.9em;
 }
 
-.menu__price {
-  font-family: Roboto, Arial, Helvetica, sans-serif;
-  font-weight: 700;
-  font-size: 0.8em;
-}
-
-p {
+p, dd {
   font-family: Roboto, Arial, Helvetica, sans-serif;
   font-weight: 300;
   font-size: 0.8em;
 }
 
+a, a:visited, a:focus {
+  text-decoration: none;
+}
+
+li, dt, dd {
+  list-style: none;
+}
+
+button {
+  font-family: Roboto, Arial, Helvetica, sans-serif;
+  font-weight: 700;
+  font-size: 0.8em;
+}
+
+/* index home page */
 #steps p {
   font-family: Roboto, Arial, Helvetica, sans-serif;
   font-weight: 700;
@@ -67,18 +68,24 @@ textarea {
   font-size: 0.8em;
 }
 
-button {
+/* menu pages */
+.menu__heading {
+  font-family: Roboto, Arial, Helvetica, sans-serif;
+  font-weight: 300;
+  font-size: 0.8em;
+  text-transform: uppercase;
+}
+
+dt {
+  font-family: Roboto, Arial, Helvetica, sans-serif;
+  font-weight: 700;
+  font-size: 0.9em;
+}
+
+.menu__price {
   font-family: Roboto, Arial, Helvetica, sans-serif;
   font-weight: 700;
   font-size: 0.8em;
-}
-
-a, a:visited, a:focus {
-  text-decoration: none;
-}
-
-li, dt, dd {
-  list-style: none;
 }
 
 .header__logo {
@@ -119,12 +126,12 @@ li, dt, dd {
 .card {
   background-color: white;
   border-radius: 15px;
-  margin-top: 10px;
+  margin-top: 15px;
   box-shadow: 0 0 10px #c0c0c0;
 }
 .card img {
   width: 100%;
-  height: 250px;
+  height: 180px;
   object-fit: cover;
   margin: 0;
   border-radius: 15px 15px 0 0;
@@ -135,10 +142,11 @@ li, dt, dd {
 
 .steps__card {
   background-color: #f2f2f2;
-  border-radius: 10px;
+  border-radius: 15px;
   margin-top: 10px;
   box-shadow: 0 0 5px #c0c0c0;
   margin-left: 10px;
+  margin-bottom: 10px;
 }
 .steps__card:hover {
   cursor: pointer;
@@ -148,33 +156,79 @@ li, dt, dd {
   padding: 15px;
 }
 
+/* ne fonctionne pas : se compile sans le "." devant "footer"
+footer {
+    background-color: rgb(70, 70, 70);
+    color: white;
+    padding: 20px;
+
+    &__heading {
+        font-family: Shrikhand, Arial, Helvetica, sans-serif;
+        font-size: 1em;
+        font-weight: 100;
+        padding-bottom: 15px;
+    }
+
+    &__infos {
+        display: inline-flex;
+        align-items: center;
+    }
+
+    &__icon {
+        font-size: smaller;
+    }
+
+    &__link {
+        font-weight: 500;
+        line-height: 2em;
+        padding-left: 10px;
+    }
+
+    & a, &:visited  {
+        color: white;
+    }
+}*/
+/* fonctionne */
+.mention, .contact {
+  color: lightgrey;
+  font-weight: 100;
+  line-height: 1.5em;
+}
+
 footer {
   background-color: #464646;
   color: white;
   padding: 20px;
 }
-footer footer a, footer a:visited {
-  color: white;
-}
-footer .footer_heading {
+
+.footer__heading {
   font-family: Shrikhand, Arial, Helvetica, sans-serif;
   font-size: 1em;
   font-weight: 100;
   padding-bottom: 15px;
 }
-footer .footer_infos {
+
+.footer__infos {
   display: inline-flex;
   align-items: center;
 }
-footer .footer_icon {
+
+.footer__icon {
   font-size: smaller;
+  width: 10px;
 }
-footer .footer_link {
+
+.footer__link {
   font-weight: 500;
   line-height: 2em;
-  padding-left: 10px;
+  padding-left: 15px;
 }
-footer .mention, footer .contact {
+
+.footer a, .footer a:visited {
+  color: white;
+}
+
+.mention, .contact {
   color: lightgrey;
   font-weight: 100;
   line-height: 1.5em;
@@ -192,10 +246,10 @@ main {
   text-align: center;
 }
 .search__heading {
-  width: 40%;
+  width: 50%;
   margin: auto;
   text-align: center;
-  padding: 10px 0;
+  padding: 15px 0;
 }
 .search__location {
   width: 100%;
@@ -214,7 +268,7 @@ main {
   text-align: center;
 }
 .search__byline {
-  width: 60%;
+  width: 70%;
   margin: auto;
   padding-bottom: 30px;
   text-align: center;
@@ -224,11 +278,17 @@ main {
   background-color: white;
   padding: 20px;
 }
+.steps__heading {
+  padding-bottom: 15px;
+}
 .steps li {
   display: inline-flex;
   align-items: center;
   width: 95%;
-  padding: 10px 0;
+  padding: 15px 0;
+}
+.steps__info {
+  font-weight: 700;
 }
 .steps i {
   padding: 0 30px;
@@ -248,17 +308,32 @@ main {
 }
 
 .restaurants {
-  padding: 20px;
+  padding: 20px 20px 40px;
+}
+.restaurants article {
+  position: relative;
+  padding-bottom: 10px;
 }
 .restaurants__new {
   width: 20%;
   background-color: #99e2d0;
+  border-radius: 3px;
   color: green;
   font-weight: 700;
   text-align: center;
   padding: 5px;
-  position: relative;
-  top: 40px;
+  position: absolute;
+  top: 15px;
+  right: 15px;
+}
+.restaurants__name, .restaurants__location {
+  padding-left: 15px;
+  padding-top: 5px;
+}
+.restaurants__like {
+  position: absolute;
+  bottom: 20px;
+  right: 15px;
 }
 
 .menu {
@@ -267,8 +342,8 @@ main {
 .menu__choice {
   padding: 20px;
 }
-.menu li {
-  padding-bottom: 30px;
+.menu h2 {
+  padding-top: 30px;
 }
 
 /*# sourceMappingURL=styles.css.map */

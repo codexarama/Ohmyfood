@@ -14,31 +14,32 @@ h2 {
     font-size: 1em;
 }
 
-.menu__heading {
-    font-family: Roboto, Arial, Helvetica, sans-serif;
-    font-weight: 300;
-    font-size: 0.8em;
-    text-transform: uppercase;
-    /*border-bottom: @include $accent;*/
-}
-
 h3 {
     font-family: Roboto, Arial, Helvetica, sans-serif;
     font-size: 0.9em;
 }
 
-.menu__price {
-    font-family: Roboto, Arial, Helvetica, sans-serif;
-    font-weight: 700;
-    font-size: 0.8em;
-}
-
-p {
+p, dd {
     font-family: Roboto, Arial, Helvetica, sans-serif;
     font-weight: 300;
     font-size: 0.8em;
 }
 
+a, a:visited, a:focus {
+    text-decoration: none;
+}
+
+li, dt, dd {
+    list-style: none;
+}
+
+button {
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 0.8em;
+}
+
+/* index home page */
 #steps p {
     font-family: Roboto, Arial, Helvetica, sans-serif;
     font-weight: 700;
@@ -50,16 +51,22 @@ textarea {
     font-size: 0.8em;
 }
 
-button {
+/* menu pages */
+.menu__heading {
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+    font-weight: 300;
+    font-size: 0.8em;
+    text-transform: uppercase;
+}
+
+dt {
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 0.9em;
+}
+
+.menu__price {
     font-family: Roboto, Arial, Helvetica, sans-serif;
     font-weight: 700;
     font-size: 0.8em;
-}
-
-a, a:visited, a:focus {
-    text-decoration: none;
-}
-
-li, dt, dd {
-    list-style: none;
 }
