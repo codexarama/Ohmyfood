@@ -203,13 +203,14 @@ dt {
 
 .nav {
   display: inline-flex;
+  align-items: center;
   width: 100%;
-  padding: 20px 30px 10px 15px;
+  padding: 10px 30px 10px 15px;
 }
 .nav__logo {
   display: flex;
   width: 40%;
-  height: auto;
+  height: 30px;
   margin: auto;
 }
 
@@ -278,8 +279,9 @@ dt {
   background-color: #9256dc1e;
 }
 
-.menu__dish {
+.menu__card {
   padding: 15px;
+  line-height: 1.5;
 }
 
 /* ne fonctionne pas : se compile sans le "." devant "footer"
@@ -435,13 +437,34 @@ main {
   padding-bottom: 5px;
 }
 .menu hr {
-  width: 40px;
+  width: 25px;
   height: 2px;
   border: none;
   background-color: #99e2d0;
 }
-.menu dd {
-  display: inline-flex;
+.menu dl {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.menu__dish {
+  width: 100%;
+}
+.menu__details {
+  display: flex;
+  justify-content: space-between;
+}
+.menu__check {
+  visibility: hidden;
+  position: absolute;
+  right: 20px;
+  padding: 24px;
+  border-radius: 0 15px 15px 0;
+  background-color: #99e2d0;
+  color: white;
+}
+.menu__check__check:hover {
+  visibility: visible;
 }
 .menu__order {
   display: flex;

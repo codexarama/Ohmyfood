@@ -11,14 +11,39 @@
     }
 
     & hr {
-        width: 40px;
+        width: 25px;
         height: 2px;
         border: none;
         background-color: $color-accent;
     }
 
-    & dd {
-        display: inline-flex;
+    & dl {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    &__dish {
+        width: 100%;
+    }
+
+    &__details {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__check {
+        visibility: hidden;
+        position: absolute;
+        right: 20px;
+        padding: 24px;
+        border-radius: 0 15px 15px 0;
+        background-color: $color-accent;
+        color: white;
+
+        &__check:hover {
+            visibility: visible;
+        }
     }
 
     &__order {
