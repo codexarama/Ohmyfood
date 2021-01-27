@@ -11,7 +11,9 @@
 
     &:hover, &:active {
         transform: scale(1.05);
-        box-shadow: 0 3px 10px darken($color-shadow, 10);
+        box-shadow: 0 3px 10px darken($color-shadow, 20);
+        /*opacity: 0.9;*/
+        filter: brightness(1.05);
     }
 }
 

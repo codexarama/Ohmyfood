@@ -34,4 +34,15 @@
 .menu__card {
     padding: 15px;
     line-height: 1.5;
+    animation: fadein 2.5s;
+    animation-delay: 0.5s;
+
+    @keyframes fadein {
+        from {
+            opacity:0;
+        }
+        to {
+            opacity:1
+        }
+    }
 }
