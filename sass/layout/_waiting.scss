@@ -12,8 +12,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 150px;
-    height: 150px;
+    width: 100px;
+    height: 100px;
 
     &:before,
     &:after {
@@ -48,7 +48,7 @@
             transform: scale(1.3);
             opacity: 0;
         }
-        }
+    }
 
     .circle {
         border-radius: 100px;
@@ -77,6 +77,12 @@
             width: 33.3%;
             height: 33.3%;
             background-color: $color-accent;
+
+        // NE COMPILE PAS > STYLES REPORTES DANS htlm <
+        &-img {
+                padding-left: 8px;
+                padding-top: 8px;
+        }//
         }
     }
 }

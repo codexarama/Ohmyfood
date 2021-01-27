@@ -95,7 +95,7 @@ dt {
 }
 .btn:hover, .btn:active {
   transform: scale(1.05);
-  box-shadow: 0 3px 10px gray;
+  box-shadow: 0 3px 10px #a7a7a7;
 }
 
 .btn--like:hover {
@@ -171,6 +171,10 @@ dt {
   width: 33.3%;
   height: 33.3%;
   background-color: #99e2d0;
+}
+.spinner-eff .circle-3-img {
+  padding-left: 8px;
+  padding-top: 8px;
 }
 
 .header__logo {
@@ -447,4 +451,4 @@ main {
   width: 45%;
 }
 
-/*# sourceMappingURL=styles.css.map */
+/*# sourceMappingURL=stles.css.map */
