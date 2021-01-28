@@ -20,11 +20,9 @@
 .steps__card {
     background-color: $color-background;
     border-radius: 15px;
-    margin-top: 10px;
     box-shadow: 0 3px 5px lightgrey;
-    margin-left: 10px;
-    margin-bottom: 20px;
-
+    margin: 10px 0 10px 20px;
+    
     &:hover, &:focus {
         cursor: pointer;
         background-color: #9256dc1e;
