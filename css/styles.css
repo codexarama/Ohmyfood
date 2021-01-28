@@ -100,17 +100,34 @@ dt {
   filter: brightness(1.05);
 }
 
+.btn--like {
+  opacity: 0;
+  transition: color 0.25s ease-in-out;
+}
 .btn--like:hover {
-  color: #9356dc;
+  opacity: 1;
+  color: #ff79da;
 }
 
 .spinner-container {
   width: 100%;
+  height: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 50vh;
-  transform: translateY(-50%);
+  background-color: white;
+  z-index: 1;
+  position: fixed;
+  animation: loading 4s ease-in-out forwards;
+  animation-iteration-count: 1;
+}
+@keyframes loading {
+  from {
+    visibility: visible;
+  }
+  to {
+    visibility: hidden;
+  }
 }
 
 .spinner-eff {
@@ -173,10 +190,11 @@ dt {
   width: 33.3%;
   height: 33.3%;
   background-color: #99e2d0;
-}
-.spinner-eff .circle-3-img {
-  padding-left: 8px;
-  padding-top: 8px;
+  /* NE COMPILE PAS > STYLES REPORTES DANS htlm <
+  &-img {
+          padding-left: 8px;
+          padding-top: 8px;
+  }*/
 }
 
 .header__logo {
@@ -276,24 +294,43 @@ dt {
   margin-left: 10px;
   margin-bottom: 20px;
 }
-.steps__card:hover {
+.steps__card:hover, .steps__card:focus {
   cursor: pointer;
   background-color: #9256dc1e;
 }
 
 .menu__card {
-  padding: 15px;
   line-height: 1.5;
-  animation: fadein 2.5s;
-  animation-delay: 0.5s;
+  transform: border-radius;
+  animation: fadein 1.5s ease-out, margin-top 0.5s linear;
+  transition: margin-right 0.25s linear;
 }
 @keyframes fadein {
   from {
     opacity: 0;
+    margin-top: 30px;
   }
   to {
     opacity: 1;
+    margin-top: 15px;
   }
+}
+.menu__card:hover {
+  border-radius: 15px 0 0 15px;
+  margin-right: 71px;
+}
+
+.menu__card:hover .menu__check {
+  opacity: 1;
+  right: 20px;
+}
+
+.menu__card:hover .fa-check-circle {
+  transform: rotate(360deg);
+}
+
+.menu__check:focus {
+  opacity: 1;
 }
 
 /* ne fonctionne pas : se compile sans le "." devant "footer"
@@ -461,22 +498,29 @@ main {
 }
 .menu__dish {
   width: 100%;
+  padding: 15px;
 }
 .menu__details {
   display: flex;
   justify-content: space-between;
 }
 .menu__check {
-  visibility: hidden;
+  opacity: 0;
   position: absolute;
-  right: 20px;
-  padding: 24px;
+  right: -50px;
+  width: 71px;
+  height: 71px;
   border-radius: 0 15px 15px 0;
   background-color: #99e2d0;
+  box-shadow: 0 0 10px #c0c0c0;
   color: white;
+  display: flex;
+  justify-content: center;
+  transition: right 0.25s linear;
 }
-.menu__check__check:hover {
-  visibility: visible;
+.menu__check i {
+  transition: all 1s ease;
+  padding: 28px;
 }
 .menu__order {
   display: flex;

@@ -17,6 +17,12 @@
     }
 }
 
-.btn--like:hover {
-    color: $color-primary;
+.btn--like {
+    opacity: 0;
+    transition: color 0.25s ease-in-out;
+
+    &:hover {
+        opacity: 1;
+        color: $color-secondary;
+    }
 }

@@ -25,24 +25,44 @@
     margin-left: 10px;
     margin-bottom: 20px;
 
-    &:hover {
+    &:hover, &:focus {
         cursor: pointer;
         background-color: #9256dc1e;
     }
 }
 
 .menu__card {
-    padding: 15px;
     line-height: 1.5;
-    animation: fadein 2.5s;
-    animation-delay: 0.5s;
+    transform: border-radius;
+    animation: fadein 1.5s ease-out, margin-top 0.5s linear;
+    transition: margin-right 0.25s linear;
 
     @keyframes fadein {
         from {
             opacity:0;
+            margin-top: 30px;
         }
         to {
-            opacity:1
+            opacity:1;
+            margin-top: 15px;
         }
     }
+
+    &:hover {
+        border-radius: 15px 0 0 15px;
+        margin-right: 71px;
+    }
+}
+
+.menu__card:hover .menu__check {
+    opacity: 1;
+    right: 20px;
+}
+
+.menu__card:hover .fa-check-circle {
+    transform: rotate(360deg);
+}
+
+.menu__check:focus {
+    opacity: 1;
 }
