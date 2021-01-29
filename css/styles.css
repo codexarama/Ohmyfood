@@ -101,15 +101,16 @@ dt {
 }
 
 .btn--like {
+  color: #9356dc;
   opacity: 0;
   transition: color 0.25s ease-in-out;
 }
-.btn--like:hover {
+.btn--like:hover, .btn--like:focus {
   opacity: 1;
   color: #ff79da;
 }
 
-.spinner-container {
+.spinner {
   width: 100%;
   height: 100%;
   display: flex;
@@ -130,7 +131,7 @@ dt {
   }
 }
 
-.spinner-eff {
+.spinner__effect {
   position: relative;
   display: flex;
   justify-content: center;
@@ -138,7 +139,7 @@ dt {
   width: 100px;
   height: 100px;
 }
-.spinner-eff:before, .spinner-eff:after {
+.spinner__effect:before, .spinner__effect:after {
   content: "";
   display: block;
 }
@@ -165,36 +166,31 @@ dt {
     opacity: 0;
   }
 }
-.spinner-eff .circle {
+.spinner__effect .circle {
   border-radius: 100px;
   margin: auto;
   transform: scale(1);
   transform-origin: center center;
 }
-.spinner-eff .circle-1 {
+.spinner__effect .circle__pulse--lg {
   position: absolute;
   width: 100%;
   height: 100%;
   background-color: #a1e4d4;
   animation: pulse 1.6s linear 0s infinite;
 }
-.spinner-eff .circle-2 {
+.spinner__effect .circle__pulse--md {
   position: absolute;
   width: 66.6%;
   height: 66.6%;
   background-color: #a5e5d5;
   animation: pulse-2 1.6s linear 0s infinite;
 }
-.spinner-eff .circle-3 {
+.spinner__effect .circle__pulse--no {
   position: absolute;
   width: 33.3%;
   height: 33.3%;
   background-color: #99e2d0;
-  /* NE COMPILE PAS > STYLES REPORTES DANS htlm <
-  &-img {
-          padding-left: 8px;
-          padding-top: 8px;
-  }*/
 }
 
 .header__logo {
@@ -289,10 +285,8 @@ dt {
 .steps__card {
   background-color: #f2f2f2;
   border-radius: 15px;
-  margin-top: 10px;
   box-shadow: 0 3px 5px lightgrey;
-  margin-left: 10px;
-  margin-bottom: 20px;
+  margin: 10px 0 10px 20px;
 }
 .steps__card:hover, .steps__card:focus {
   cursor: pointer;
@@ -422,7 +416,6 @@ main {
   padding-bottom: 15px;
 }
 .steps li {
-  width: 95%;
   padding: 20px 0;
 }
 .steps__info {
