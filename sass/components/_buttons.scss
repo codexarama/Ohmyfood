@@ -18,10 +18,11 @@
 }
 
 .btn--like {
+    color: $color-primary;
     opacity: 0;
     transition: color 0.25s ease-in-out;
 
-    &:hover {
+    &:hover, &:focus {
         opacity: 1;
         color: $color-secondary;
     }
