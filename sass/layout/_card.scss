@@ -22,7 +22,7 @@
     border-radius: 15px;
     box-shadow: 0 3px 5px lightgrey;
     margin: 10px 0 10px 20px;
-    
+
     &:hover, &:focus {
         cursor: pointer;
         background-color: #9256dc1e;
@@ -30,6 +30,9 @@
 }
 
 .menu__card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     line-height: 1.5;
     transform: border-radius;
     animation: fadein 1.5s ease-out, margin-top 0.5s linear;
@@ -54,7 +57,7 @@
 
 .menu__card:hover .menu__check {
     opacity: 1;
-    right: 20px;
+    right: 10%;
 }
 
 .menu__card:hover .fa-check-circle {
@@ -63,4 +66,13 @@
 
 .menu__check:focus {
     opacity: 1;
+}
+
+
+@media #{$large-up} {
+
+    .menu__card {
+        display: inline-flex;
+        width: 100%;
+    }
 }
