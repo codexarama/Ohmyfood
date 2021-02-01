@@ -34,9 +34,7 @@
     justify-content: space-between;
     align-items: center;
     line-height: 1.5;
-    transform: border-radius;
     animation: fadein 1.5s ease-out, margin-top 0.5s linear;
-    transition: margin-right 0.25s linear;
 
     @keyframes fadein {
         from {
@@ -48,29 +46,25 @@
             margin-top: 15px;
         }
     }
+}
+
+.menu__dish {
+    transition: width 0.25s ease;
 
     &:hover {
         border-radius: 15px 0 0 15px;
-        margin-right: 71px;
     }
 }
 
 .menu__card:hover .menu__check {
-    opacity: 1;
-    right: 10%;
+    width: 85px;
 }
 
 .menu__card:hover .fa-check-circle {
     transform: rotate(360deg);
 }
 
-.menu__check:focus {
-    opacity: 1;
-}
-
-
 @media #{$large-up} {
-
     .menu__card {
         display: inline-flex;
         width: 100%;

@@ -1,7 +1,3 @@
-/*.choice {
-    padding: 0 20px 20px;
-}*/
-
 .menu {
     background-color: $color-background;
 
@@ -10,8 +6,7 @@
     }
 
     &__heading {
-        padding-top: 30px;
-        padding-bottom: 5px;
+        padding-top: 20px;
     }
 
     & hr {
@@ -32,18 +27,14 @@
     }
 
     &__check {
-        opacity: 0;
-        position: absolute;
-        left: 81%;
-        width: 71px;
-        height: 71px;
+        width: 0;
+        overflow: hidden;
         border-radius: 0 15px 15px 0;
         background-color: $color-accent;
-        box-shadow: 0 0 10px $color-shadow;
         color: white;
         display: flex;
         justify-content: center;
-        transition: right 0.25s linear;
+        transition: all 0.25s ease;
     }
 
     &__check i {
@@ -58,29 +49,21 @@
 }
 
 @media #{$small-up} {
-    .header {
-        &__heading {
-            padding-left: 95px;
-            padding-right: 95px;
-        }
-    }
-
     .menu {
 
         &__choice {
-            width: 75%;
+            width: 65%;
             margin: auto;
         }
+    }
+}
 
-        &__check {
-            position: static;
-            opacity: 1;
-            background-color: gray;
-            transition: color 2s ease-in-out;
+@media #{$medium-up} {
+    .menu {
 
-            &:hover {
-                color: $color-accent;
-            }
+        &__choice {
+            width: 50%;
+            margin: auto;
         }
     }
 }
@@ -88,7 +71,7 @@
 @media #{$large-up} {
     .menu {
         &__choice {
-            width: 90%;
+            width: 100%;
             display: flex;
             justify-content: space-evenly;
         }
