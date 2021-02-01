@@ -43,6 +43,7 @@
         &--name {
             width: 65%;
             margin: auto;
+            padding: 0 10px;
         }
     }
 }
@@ -51,7 +52,6 @@
     .header__heading {
         &--name {
             width: 50%;
-            margin: auto;
         }
     }
 }
@@ -59,8 +59,7 @@
 @media #{$large-up} {
     .header__heading {
         &--name {
-            width: 30%;
-            margin: auto;
+            width: 32%;
         }
     }
 }

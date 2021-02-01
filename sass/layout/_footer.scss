@@ -1,78 +1,22 @@
-/* ne fonctionne pas : se compile sans le "." devant "footer"
-footer {
+.footer {
     background-color: rgb(70, 70, 70);
     color: white;
     padding: 20px;
 
     &__heading {
-        font-family: Shrikhand, Arial, Helvetica, sans-serif;
-        font-size: 1em;
-        font-weight: 100;
         padding-bottom: 15px;
     }
 
     &__infos {
-        display: inline-flex;
         align-items: center;
     }
 
     &__icon {
         font-size: smaller;
+        width: 15px;
     }
 
     &__link {
-        font-weight: 500;
-        line-height: 2em;
         padding-left: 10px;
     }
-
-    & a, &:visited  {
-        color: white;
-    }
-}*/
-
-/* fonctionne */
-.mention, .contact {
-    color: lightgrey;
-    font-weight: 100;
-    line-height: 1.5em;
-}
-
-footer {
-    background-color: rgb(70, 70, 70);
-    color: white;
-    padding: 20px;
-}
-
-.footer__heading {
-    font-family: Shrikhand, Arial, Helvetica, sans-serif;
-    font-size: 1em;
-    font-weight: 100;
-    padding-bottom: 15px;
-}
-
-/*.footer__infos {
-    display: inline-flex;
-    align-items: center;
-}*/
-
-.footer__icon {
-    font-size: smaller;
-    width: 10px;
-}
-
-.footer__link {
-    font-weight: 500;
-    line-height: 2em;
-    padding-left: 15px;
-}
-
-.footer a, .footer a:visited  {
-    color: white;
-}
-
-.mention, .contact {
-    color: lightgrey;
-    font-weight: 100;
-    line-height: 1.5em;
 }
