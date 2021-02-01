@@ -18,16 +18,16 @@ h2, dt {
     font-size: 1em;
 }
 
-#steps p, dt, .menu__price {
+#steps p, dt, .menu__price, .footer__link {
     font-weight: 700;
 }
 
-textarea, button, .footer__link {
+textarea, button, .footer__link, .footer__mention, .footer__contact {
     font-weight: 500;
     line-height: 2em;
 }
 
-p, dd, .menu__heading {
+p, dd, .menu__heading, .footer__mention, .footer_contact {
     font-weight: 300;
 }
 
@@ -38,7 +38,6 @@ p, dd, .menu__heading {
 .footer {
     &__mention, &__contact {
         color: lightgray;
-        line-height: 1.5;
     }
 
     & a, & a:visited  {

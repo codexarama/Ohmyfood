@@ -8,7 +8,7 @@
     color: white;
     box-shadow: 0 3px 10px $color-shadow;
     transform: scale(1);
-    transition: transform 1s;
+    transition: transform 0.25s;
 
     &:hover, &:active {
         transform: scale(1.05);
