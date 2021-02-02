@@ -1,12 +1,13 @@
-
 body {
     font-family: Roboto, Arial, Helvetica, sans-serif;
     font-size: 0.8em;
 }
 
-.header__logo, h1, .footer__heading {
+.header__logo,
+h1,
+.footer__heading {
     font-family: Shrikhand, cursive;
-    font-size: 1.2em;
+    font-size: 1.3em;
     font-weight: 100;
 }
 
@@ -14,41 +15,38 @@ body {
     font-size: 1.5em;
 }
 
-h2, dt {
-    font-size: 1em;
+dt {
+    font-size: 1.2em;
 }
 
-#steps p, dt, .menu__price, .footer__link {
+#steps p,
+dt,
+.menu__price {
     font-weight: 700;
 }
 
-textarea, button, .footer__link, .footer__mention, .footer__contact {
-    font-weight: 500;
-    line-height: 2em;
-}
-
-p, dd, .menu__heading, .footer__mention, .footer_contact {
+p,
+dd {
     font-weight: 300;
 }
 
 .menu__heading {
     text-transform: uppercase;
+    font-size: 1.2em;
+    font-weight: 300
 }
 
 .footer {
-    &__mention, &__contact {
+    line-height: 2em;
+
+    &__mention,
+    &__contact {
         color: lightgray;
+        font-weight: 300;
     }
 
-    & a, & a:visited  {
+    & a,
+    & a:visited {
         color: white;
     }
-}
-
-a, a:visited {
-    text-decoration: none;
-}
-
-li, dt, dd {
-    list-style: none;
 }

@@ -1,3 +1,11 @@
+/*
+Author: Amandine ARIAS;
+Project: Ohmyfood!;
+Type: website;
+Description: mockup integration;
+First version: 02/02/2021;
+Tags: web, gastronomic restaurant, order online, no wait;
+*/
 *,
 *::after,
 *::before {
@@ -9,15 +17,24 @@
 body {
   box-sizing: border-box;
 }
+body a, body a:visited {
+  text-decoration: none;
+  color: black;
+}
+body li, body dt, body dd {
+  list-style: none;
+}
 
 body {
   font-family: Roboto, Arial, Helvetica, sans-serif;
   font-size: 0.8em;
 }
 
-.header__logo, h1, .footer__heading {
+.header__logo,
+h1,
+.footer__heading {
   font-family: Shrikhand, cursive;
-  font-size: 1.2em;
+  font-size: 1.3em;
   font-weight: 100;
 }
 
@@ -25,40 +42,36 @@ body {
   font-size: 1.5em;
 }
 
-h2, dt {
-  font-size: 1em;
+dt {
+  font-size: 1.2em;
 }
 
-#steps p, dt, .menu__price, .footer__link {
+#steps p,
+dt,
+.menu__price {
   font-weight: 700;
 }
 
-textarea, button, .footer__link, .footer__mention, .footer__contact {
-  font-weight: 500;
-  line-height: 2em;
-}
-
-p, dd, .menu__heading, .footer__mention, .footer_contact {
+p,
+dd {
   font-weight: 300;
 }
 
 .menu__heading {
   text-transform: uppercase;
+  font-size: 1.2em;
+  font-weight: 300;
 }
 
+.footer {
+  line-height: 2em;
+}
 .footer__mention, .footer__contact {
   color: lightgray;
+  font-weight: 300;
 }
 .footer a, .footer a:visited {
   color: white;
-}
-
-a, a:visited {
-  text-decoration: none;
-}
-
-li, dt, dd {
-  list-style: none;
 }
 
 .btn {
@@ -76,7 +89,6 @@ li, dt, dd {
 .btn:hover, .btn:active {
   transform: scale(1.05);
   box-shadow: 0 3px 10px #8d8d8d;
-  /*opacity: 0.9;*/
   filter: brightness(1.05);
 }
 
@@ -282,8 +294,9 @@ li, dt, dd {
 }
 .card img {
   width: 100%;
-  height: 180px;
+  height: 185px;
   object-fit: cover;
+  object-position: center -70px;
   margin: 0;
   border-radius: 15px 15px 0 0;
 }
@@ -300,6 +313,11 @@ li, dt, dd {
 .steps__card:hover, .steps__card:focus {
   cursor: pointer;
   background-color: #9256dc1e;
+}
+
+.restaurants__card {
+  position: relative;
+  padding-bottom: 10px;
 }
 
 .menu__card {
@@ -388,6 +406,7 @@ main {
   color: gray;
   width: 10px;
   height: auto;
+  translate: Y(20px);
 }
 .steps__info {
   font-weight: 700;
@@ -397,10 +416,6 @@ main {
 
 .restaurants {
   padding: 20px 20px 40px;
-}
-.restaurants article {
-  position: relative;
-  padding-bottom: 10px;
 }
 .restaurants__tag {
   background-color: #99e2d0;
@@ -506,7 +521,7 @@ main {
   padding: 0 20px 20px;
 }
 .menu__heading {
-  padding-top: 20px;
+  padding: 20px 0 5px;
 }
 .menu hr {
   width: 25px;
@@ -534,7 +549,7 @@ main {
 }
 .menu__check i {
   transition: all 1s ease;
-  padding: 28px;
+  padding: 32px;
 }
 .menu__order {
   display: flex;

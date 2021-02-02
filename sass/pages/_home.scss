@@ -30,6 +30,7 @@ main {
         color: gray;
         width: 10px;
         height: auto;
+        translate: Y(20px);
     }
 
     &__info {
@@ -41,11 +42,6 @@ main {
 
 .restaurants {
     padding: 20px 20px 40px;
-
-    & article {
-        position: relative;
-        padding-bottom: 10px;
-    }
 
     &__tag {
         background-color: $color-accent;
@@ -76,13 +72,13 @@ main {
 
         &__heading {
         text-align: center;
-    }
+        }
 
         &__card {
         width: 50%;
         margin: 10px auto 20px;
+        }
     }
-}
 
     .restaurants {
         display: flex;
@@ -169,6 +165,3 @@ main {
         }
     }
 }
-
-
-

@@ -6,12 +6,6 @@ $wide: 1440px!default;
 // ces break-points s'appliquent par défaut //
 // sauf si une autre valeur est définie, ex: $medium: 500px; //
 
-$small-down:"only screen and (max-width: #{$small})";
 $small-up:"only screen and (min-width: #{$small})";
 $medium-up:"only screen and (min-width: #{$medium})";
 $large-up:"only screen and (min-width: #{$large})";
-$wide-up:"only screen and (min-width: #{$wide})";
-
-
-
-
