@@ -354,6 +354,10 @@ dd {
 }
 
 @media only screen and (min-width: 1175px) {
+  .steps__card {
+    border-radius: 25px;
+  }
+
   .menu__card {
     display: inline-flex;
     width: 100%;
@@ -410,7 +414,6 @@ main {
   color: gray;
   width: 10px;
   height: auto;
-  translate: Y(20px);
 }
 .steps__info {
   font-weight: 700;
@@ -544,7 +547,7 @@ main {
   display: flex;
   justify-content: space-between;
 }
-.menu dt, .menu dd {
+.menu__details--ellipse {
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;

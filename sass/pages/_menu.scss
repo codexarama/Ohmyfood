@@ -29,8 +29,7 @@
         justify-content: space-between;
     }
 
-    & dt,
-    & dd {
+    &__details--ellipse {
         white-space: nowrap;
         overflow: hidden;
         text-overflow: ellipsis;
