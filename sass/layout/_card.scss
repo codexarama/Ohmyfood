@@ -70,10 +70,15 @@
 }
 
 @media #{$large-up} {
+    .steps__card {
+        border-radius: 25px;
+    }
+    
     .menu__card {
         display: inline-flex;
         width: 100%;
     }
+
     .menu__card:hover .menu__check {
         width: 30%;
     }
