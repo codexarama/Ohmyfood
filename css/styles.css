@@ -100,6 +100,7 @@ dd {
 .btn--like:hover, .btn--like:focus {
   opacity: 1;
   color: #ff79da;
+  cursor: pointer;
 }
 
 .spinner {
