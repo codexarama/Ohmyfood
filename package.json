@@ -1,0 +1,22 @@
+{
+  "name": "amandinearias_3_25012021",
+  "version": "1.0.0",
+  "description": "Ohmyfood website",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass sass/main.scss css/styles.css -w --styles compressed",
+    "prefix": "postcss css/styles.css --use autoprefixer css/prefixed",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/codexarama/AmandineArias_3_25012021.git"
+  },
+  "author": "Amandine ARIAS",
+  "license": "ISC",
+  "browserslist": "last 4 versions",
+  "bugs": {
+    "url": "https://github.com/codexarama/AmandineArias_3_25012021/issues"
+  },
+  "homepage": "https://github.com/codexarama/AmandineArias_3_25012021#readme"
+}
