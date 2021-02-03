@@ -100,6 +100,7 @@ dd {
 .btn--like:hover, .btn--like:focus {
   opacity: 1;
   color: #ff79da;
+  cursor: pointer;
 }
 
 .spinner {
@@ -345,7 +346,7 @@ dd {
 }
 
 .menu__card:hover .menu__check {
-  width: 85px;
+  width: 20%;
 }
 
 .menu__card:hover .fa-check-circle {
@@ -353,9 +354,17 @@ dd {
 }
 
 @media only screen and (min-width: 1175px) {
+  .steps__card {
+    border-radius: 25px;
+  }
+
   .menu__card {
     display: inline-flex;
     width: 100%;
+  }
+
+  .menu__card:hover .menu__check {
+    width: 30%;
   }
 }
 .footer {
@@ -405,7 +414,6 @@ main {
   color: gray;
   width: 10px;
   height: auto;
-  translate: Y(20px);
 }
 .steps__info {
   font-weight: 700;
@@ -531,10 +539,18 @@ main {
 .menu__dish {
   width: 100%;
   padding: 15px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 .menu__details {
   display: flex;
   justify-content: space-between;
+}
+.menu__details--ellipse {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 .menu__check {
   width: 0;

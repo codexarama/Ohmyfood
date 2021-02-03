@@ -19,11 +19,20 @@
     &__dish {
         width: 100%;
         padding: 15px;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
     }
 
     &__details {
         display: flex;
         justify-content: space-between;
+    }
+
+    &__details--ellipse {
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
     }
 
     &__check {
