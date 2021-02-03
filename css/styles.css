@@ -346,7 +346,7 @@ dd {
 }
 
 .menu__card:hover .menu__check {
-  width: 85px;
+  width: 20%;
 }
 
 .menu__card:hover .fa-check-circle {
@@ -357,6 +357,10 @@ dd {
   .menu__card {
     display: inline-flex;
     width: 100%;
+  }
+
+  .menu__card:hover .menu__check {
+    width: 30%;
   }
 }
 .footer {
@@ -532,10 +536,18 @@ main {
 .menu__dish {
   width: 100%;
   padding: 15px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 .menu__details {
   display: flex;
   justify-content: space-between;
+}
+.menu dt, .menu dd {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 .menu__check {
   width: 0;
