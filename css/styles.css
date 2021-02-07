@@ -563,8 +563,9 @@ main {
   transition: all 0.25s ease;
 }
 .menu__check i {
+  font-size: large;
+  padding: 27px;
   transition: all 1s ease;
-  padding: 32px;
 }
 .menu__order {
   display: flex;
