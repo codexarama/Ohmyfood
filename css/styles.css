@@ -353,20 +353,6 @@ dd {
   transform: rotate(360deg);
 }
 
-@media only screen and (min-width: 1175px) {
-  .steps__card {
-    border-radius: 25px;
-  }
-
-  .menu__card {
-    display: inline-flex;
-    width: 100%;
-  }
-
-  .menu__card:hover .menu__check {
-    width: 30%;
-  }
-}
 .footer {
   background-color: #464646;
   color: white;
@@ -497,6 +483,7 @@ main {
     display: inline;
     margin: 20px;
     padding: 20px 30px;
+    border-radius: 25px;
   }
 
   .restaurants__card {
@@ -581,7 +568,6 @@ main {
 @media only screen and (min-width: 768px) {
   .menu__choice {
     width: 50%;
-    margin: auto;
   }
 }
 @media only screen and (min-width: 1175px) {
@@ -591,6 +577,13 @@ main {
     justify-content: space-evenly;
   }
   .menu__starters, .menu__main, .menu__desserts {
+    width: 30%;
+  }
+  .menu__card {
+    display: inline-flex;
+    width: 100%;
+  }
+  .menu__card:hover .menu__check {
     width: 30%;
   }
   .menu__order {

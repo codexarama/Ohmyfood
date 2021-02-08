@@ -71,7 +71,6 @@
     .menu {
         &__choice {
             width: 50%;
-            margin: auto;
         }
     }
 }
@@ -86,6 +85,14 @@
 
         &__starters, &__main, &__desserts {
             width: 30%;
+        }
+
+        &__card {
+            display: inline-flex;
+            width: 100%;
+            &:hover .menu__check {
+                width: 30%;
+            }
         }
 
         &__order {
