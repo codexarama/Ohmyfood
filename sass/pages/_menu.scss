@@ -58,6 +58,23 @@
     }
 }
 
+@media #{$small-up} {
+    .menu {
+        &__choice {
+            width: 65%;
+            margin: auto;
+        }
+    }
+}
+
+@media #{$medium-up} {
+    .menu {
+        &__choice {
+            width: 50%;
+        }
+    }
+}
+
 @media #{$large-up} {
     .menu {
         &__choice {
@@ -70,26 +87,16 @@
             width: 30%;
         }
 
+        &__card {
+            display: inline-flex;
+            width: 100%;
+            &:hover .menu__check {
+                width: 30%;
+            }
+        }
+
         &__order {
             width: 100%;
-        }
-    }
-}
-
-@media #{$medium-up} {
-    .menu {
-        &__choice {
-            width: 50%;
-            margin: auto;
-        }
-    }
-}
-
-@media #{$small-up} {
-    .menu {
-        &__choice {
-            width: 65%;
-            margin: auto;
         }
     }
 }
