@@ -58,24 +58,6 @@
     }
 }
 
-@media #{$small-up} {
-    .menu {
-        &__choice {
-            width: 65%;
-            margin: auto;
-        }
-    }
-}
-
-@media #{$medium-up} {
-    .menu {
-        &__choice {
-            width: 50%;
-            margin: auto;
-        }
-    }
-}
-
 @media #{$large-up} {
     .menu {
         &__choice {
@@ -90,6 +72,24 @@
 
         &__order {
             width: 100%;
+        }
+    }
+}
+
+@media #{$medium-up} {
+    .menu {
+        &__choice {
+            width: 50%;
+            margin: auto;
+        }
+    }
+}
+
+@media #{$small-up} {
+    .menu {
+        &__choice {
+            width: 65%;
+            margin: auto;
         }
     }
 }

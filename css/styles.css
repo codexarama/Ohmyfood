@@ -445,42 +445,6 @@ main {
   right: 15px;
 }
 
-@media only screen and (min-width: 600px) {
-  .steps__heading {
-    text-align: center;
-  }
-  .steps__card {
-    width: 50%;
-    margin: 10px auto 20px;
-  }
-
-  .restaurants {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-  }
-  .restaurants__heading {
-    width: 100%;
-    padding-left: 20px;
-  }
-  .restaurants__card {
-    width: 45%;
-  }
-
-  .footer {
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-  }
-  .footer__heading {
-    width: 30%;
-    padding-bottom: 0;
-    padding-left: 10px;
-  }
-  .footer__infos {
-    width: 40%;
-  }
-}
 @media only screen and (min-width: 1175px) {
   .steps {
     display: flex;
@@ -519,6 +483,42 @@ main {
   .footer a {
     display: inline-block;
     margin-right: 15px;
+  }
+}
+@media only screen and (min-width: 600px) {
+  .steps__heading {
+    text-align: center;
+  }
+  .steps__card {
+    width: 50%;
+    margin: 10px auto 20px;
+  }
+
+  .restaurants {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+  .restaurants__heading {
+    width: 100%;
+    padding-left: 20px;
+  }
+  .restaurants__card {
+    width: 45%;
+  }
+
+  .footer {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  .footer__heading {
+    width: 30%;
+    padding-bottom: 0;
+    padding-left: 10px;
+  }
+  .footer__infos {
+    width: 40%;
   }
 }
 .menu {
@@ -572,18 +572,6 @@ main {
   justify-content: center;
 }
 
-@media only screen and (min-width: 600px) {
-  .menu__choice {
-    width: 65%;
-    margin: auto;
-  }
-}
-@media only screen and (min-width: 768px) {
-  .menu__choice {
-    width: 50%;
-    margin: auto;
-  }
-}
 @media only screen and (min-width: 1175px) {
   .menu__choice {
     width: 100%;
@@ -595,6 +583,18 @@ main {
   }
   .menu__order {
     width: 100%;
+  }
+}
+@media only screen and (min-width: 768px) {
+  .menu__choice {
+    width: 50%;
+    margin: auto;
+  }
+}
+@media only screen and (min-width: 600px) {
+  .menu__choice {
+    width: 65%;
+    margin: auto;
   }
 }
 
