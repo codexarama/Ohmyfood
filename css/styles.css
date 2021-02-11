@@ -164,6 +164,9 @@ dd {
   margin: auto;
   transform: scale(1);
   transform-origin: center center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .spinner__effect .circle__pulse--lg {
   position: absolute;
