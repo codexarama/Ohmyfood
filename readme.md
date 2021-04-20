@@ -1,6 +1,8 @@
 # Ohmyfood
 
-> CLIENT : Ohmyfood
+(projet fictif de formation)
+
+> CONTEXTE : Ohmyfood
 
 Site de commande de repas en ligne, le concept permet aux utilisateurs de composer leur propre menu et aux restaurants de le préparer à l'avance.
 Fini les pertes de temps à consulter la carte et à préparer la commande !
