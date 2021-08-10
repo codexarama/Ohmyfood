@@ -1,6 +1,6 @@
 # Ohmyfood
 
-## CLIENT : Ohmyfood
+## BESOIN
 
 Site de commande de repas en ligne, le concept permet aux utilisateurs de composer leur propre menu et aux restaurants de le préparer à l'avance.
 Fini les pertes de temps à consulter la carte et à préparer la commande !
@@ -11,15 +11,15 @@ Fini les pertes de temps à consulter la carte et à préparer la commande !
 
 ## LIVRABLES
 
--[x] intégration mobile-first HTML de la page d'accueil
--[x] intégration de 4 pages, contenant chacune le menu d’un restaurant
--[x] intégration des effets graphiques et animations
+- [x] intégration mobile-first HTML de la page d'accueil
+- [x] intégration de 4 pages, contenant chacune le menu d’un restaurant
+- [x] intégration des effets graphiques et animations
 
 ## COMPETENCES DEVELOPPEES
 
--[x] Mettre en place une structure de navigation pour un site web
--[x] Mettre en œuvre des effets CSS graphiques avancés
--[x] Assurer la cohérence graphique d'un site web
+- [x] Mettre en place une structure de navigation pour un site web
+- [x] Mettre en œuvre des effets CSS graphiques avancés
+- [x] Assurer la cohérence graphique d'un site web
 
 ## RESSOURCES FOURNIES
 
