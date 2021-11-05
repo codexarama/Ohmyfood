@@ -11,7 +11,7 @@ Fini les pertes de temps à consulter la carte et à préparer la commande !
 
 Développer un site 100% mobile qui répertorie les menus de restaurants gastronomiques et intègre un système de commande anticipée en plus du classique système de réservation
 
-### Livrables
+## Livrables
 
 - [x] intégration mobile-first HTML de la page d'accueil
 - [x] intégration de 4 pages, contenant chacune le menu d’un restaurant
