@@ -1,6 +1,6 @@
 # Ohmyfood
 
-(Projet fictif de formation n°02/11 avec OpenClassrooms)
+    Projet fictif de formation n°02/11 | OpenClassrooms
 
 > BESOIN
 
