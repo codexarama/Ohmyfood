@@ -2,6 +2,10 @@
 
     Projet fictif de formation n°02/11 | OpenClassrooms
 
+![Home page](./Ohmyfood_0.png)
+![Home page](./Ohmyfood_1.PNG)
+![Home page](./Ohmyfood_2.PNG)
+
 > BESOIN
 
 Site de commande de repas en ligne, le concept permet aux utilisateurs de composer leur propre menu et aux restaurants de le préparer à l'avance.
