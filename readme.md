@@ -8,11 +8,11 @@
 
 **Home page**
 
-![Home page](./Ohmyfood_1.PNG)
+<kbd>![Home page](./Ohmyfood_1.PNG)</kbd>
 
 **Selected restaurant**
 
-![Selected restaurant](./Ohmyfood_2.PNG)
+<kbd>![Selected restaurant](./Ohmyfood_2.PNG)</kbd>
 
 > BESOIN
 
