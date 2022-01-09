@@ -2,9 +2,17 @@
 
     Projet fictif de formation n°02/11 | OpenClassrooms
 
-![Home page](./Ohmyfood_0.png)
+**Mobile first**
+
+![Mobile first](./Ohmyfood_0.png)
+
+**Home page**
+
 ![Home page](./Ohmyfood_1.PNG)
-![Home page](./Ohmyfood_2.PNG)
+
+**Selected restaurant**
+
+![Selected restaurant](./Ohmyfood_2.PNG)
 
 > BESOIN
 
